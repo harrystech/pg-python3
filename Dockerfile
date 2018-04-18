@@ -1,5 +1,5 @@
 FROM alpine:3.6
-LABEL maintainer="Benson Tucker <bensontucker@gmail.com>"
+LABEL maintainer="Dion Ridley <dion.ridley@harrys.com>"
 
 RUN apk update && \
     apk add --no-cache bash git python3 postgresql-client py3-psycopg2 && \
